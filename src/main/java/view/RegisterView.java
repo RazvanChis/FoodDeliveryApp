@@ -28,7 +28,7 @@ public class RegisterView extends JDialog {
 	private JButton cancelButton;
 
 	UserDAOService userDAOService = new UserDAOServiceImplementation();
-	private static final int CUSTOMER_TYPE = 0;
+	private static final String CUSTOMER_TYPE = "Customer";
 
 	public RegisterView(Frame parentFrame) {
 		super(parentFrame, "Login", true);
